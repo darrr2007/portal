@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.all-rights-reserved {
+  position: absolute;
+  top: 750px;
+  left: calc(50% - 97.5px);
+  line-height: 137.4%;
+  display: inline-block;
+  color: #2c6ab1;
+  width: 195px;
+  opacity: 0.88;
+}
+.on-nfo-portal {
+  margin: 0;
+}
+.create-account-on-container {
+  position: relative;
+  line-height: 137.4%;
+  opacity: 0.9;
+}
+.field {
+  position: relative;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(235, 236, 237, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  width: 248px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.field1 {
+  position: relative;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background-color: rgba(235, 236, 237, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  width: 248px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.your-grade-cannot {
+  position: relative;
+  font-size: 9.96px;
+  bottom: 5px;
+}
+.button {
+  position: relative;
+  border-radius: 10px;
+  background-color: #2961b2;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  width: 248px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form-container,
+.form-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-container {
+  height: 430px;
+  justify-content: center;
+  padding: 5px 8px;
+  gap: 15px;
+}
+.form-wrapper {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.03);
+  height: 520px;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 40px 14px;
+}
+.create-account-wrap,
+.form-frame {
+  position: absolute;
+  left: calc(50% - 146px);
+  height: 459px;
+}
+.create-account-wrap {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.form-frame {
+  top: 160px;
+  width: 292px;
+  font-size: 18px;
+  color: #2c6ab1;
+}
+.logo,
+.nfo-logo-icon {
+  position: absolute;
+  width: 156px;
+  height: 70px;
+}
+.nfo-logo-icon {
+  top: 0;
+  left: calc(50% - 78px);
+  object-fit: cover;
+}
+.logo {
+  top: 43px;
+  left: calc(50% - 78.5px);
+}
+.create-account {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;
+  /* background-image: url("../public/bg.png") ;  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 13px;
+  color: #F3F3F3;
+  font-family: Cardo;
+}

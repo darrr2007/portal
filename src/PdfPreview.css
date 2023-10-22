@@ -1,0 +1,69 @@
+
+.pdf-container{
+  width: 100%;
+  height: 900px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.logo{
+
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+.bg{
+  margin-left: 500px;
+  position: absolute;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.back{
+  text-overflow:ellipsis ;
+  margin-left: 600px;
+  margin-top: 50px;
+  font-family: Cardo;
+  opacity: 90%;
+  font-size:x-large;
+  color: #2C6AB1;
+}
+
+
+.container{
+  margin-top: 30px;
+  border:  solid transparent;
+  border-radius: 20px;
+  background-color: #F3F3F3;
+  box-shadow: 0 0 0 30px white;
+  
+}
+.body{
+  background-color: #F3F3F3;
+  margin: auto;
+}
+
+form{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn{
+  margin-top: 10px;
+}
+
+@media print{
+  .body{
+    display: none;
+  }
+}
